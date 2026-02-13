@@ -1,0 +1,238 @@
+{
+  "phase": "Ultimate Hybrid - Best of All Phases",
+  "hybrid_statistics": {
+    "average_improvements": {
+      "latency": 1.5163417367073928,
+      "packet_loss": 3.2474128282466186,
+      "throughput": 0.2831393863435889,
+      "jitter": -2.195400839792101
+    },
+    "peak_improvements": {
+      "latency": 7.466961801479516,
+      "packet_loss": 23.46797965592596,
+      "throughput": 3.734540072899261,
+      "jitter": 11.260896717279897
+    },
+    "hybrid_grade_average": 70.0
+  },
+  "detailed_results": {
+    "hybrid_video_streaming": {
+      "scenario": "hybrid_video_streaming",
+      "traffic_type": "video_streaming",
+      "improvements": {
+        "latency": -2.0684684712871406,
+        "packet_loss": -4.851556444466884,
+        "throughput": 0.16910787101442615,
+        "jitter": -2.7168669787386297
+      },
+      "hybrid_score": 8.714618737752199,
+      "grade": "\ud83d\udcca ACCEPTABLE B (STANDARD)",
+      "grade_points": 70,
+      "hybrid_metrics": {
+        "hybrid_corrections": 0,
+        "phase_usage": {
+          "phase1": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "hybrid": 0
+        },
+        "correction_rate": 0.0,
+        "hybrid_report": {
+          "hybrid_performance": {
+            "correction_rate": 0.0,
+            "total_corrections": 0,
+            "average_stability_score": 0.7334005406235594,
+            "average_ml_confidence": 0.9
+          },
+          "action_distribution": {},
+          "context_distribution": {
+            "video_streaming": 100
+          },
+          "hybrid_intelligence_level": 0.5444668468745198
+        }
+      }
+    },
+    "hybrid_gaming": {
+      "scenario": "hybrid_gaming",
+      "traffic_type": "gaming",
+      "improvements": {
+        "latency": 7.466961801479516,
+        "packet_loss": 17.142398707419225,
+        "throughput": 3.734540072899261,
+        "jitter": -4.496503675257248
+      },
+      "hybrid_score": 18.24287322278352,
+      "grade": "\ud83d\udcca ACCEPTABLE B (STANDARD)",
+      "grade_points": 70,
+      "hybrid_metrics": {
+        "hybrid_corrections": 0,
+        "phase_usage": {
+          "phase1": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "hybrid": 0
+        },
+        "correction_rate": 0.0,
+        "hybrid_report": {
+          "hybrid_performance": {
+            "correction_rate": 0.0,
+            "total_corrections": 0,
+            "average_stability_score": 0.7569868902535134,
+            "average_ml_confidence": 0.9
+          },
+          "action_distribution": {},
+          "context_distribution": {
+            "gaming": 100
+          },
+          "hybrid_intelligence_level": 0.5523289634178378
+        }
+      }
+    },
+    "hybrid_video_call": {
+      "scenario": "hybrid_video_call",
+      "traffic_type": "video_call",
+      "improvements": {
+        "latency": 2.8056273890533454,
+        "packet_loss": 23.46797965592596,
+        "throughput": -0.7491764504677665,
+        "jitter": -3.3482789322877355
+      },
+      "hybrid_score": 17.29347749205854,
+      "grade": "\ud83d\udcca ACCEPTABLE B (STANDARD)",
+      "grade_points": 70,
+      "hybrid_metrics": {
+        "hybrid_corrections": 0,
+        "phase_usage": {
+          "phase1": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "hybrid": 0
+        },
+        "correction_rate": 0.0,
+        "hybrid_report": {
+          "hybrid_performance": {
+            "correction_rate": 0.0,
+            "total_corrections": 0,
+            "average_stability_score": 0.7393764262846055,
+            "average_ml_confidence": 0.9
+          },
+          "action_distribution": {},
+          "context_distribution": {
+            "video_call": 100
+          },
+          "hybrid_intelligence_level": 0.5464588087615352
+        }
+      }
+    },
+    "hybrid_download": {
+      "scenario": "hybrid_download",
+      "traffic_type": "file_download",
+      "improvements": {
+        "latency": 1.2998442756589108,
+        "packet_loss": -6.094101842502148,
+        "throughput": 1.4456769774203564,
+        "jitter": 11.260896717279897
+      },
+      "hybrid_score": 11.003165122419619,
+      "grade": "\ud83d\udcca ACCEPTABLE B (STANDARD)",
+      "grade_points": 70,
+      "hybrid_metrics": {
+        "hybrid_corrections": 0,
+        "phase_usage": {
+          "phase1": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "hybrid": 0
+        },
+        "correction_rate": 0.0,
+        "hybrid_report": {
+          "hybrid_performance": {
+            "correction_rate": 0.0,
+            "total_corrections": 0,
+            "average_stability_score": 0.6984780029028714,
+            "average_ml_confidence": 0.9
+          },
+          "action_distribution": {},
+          "context_distribution": {
+            "video_streaming": 100
+          },
+          "hybrid_intelligence_level": 0.5328260009676238
+        }
+      }
+    },
+    "hybrid_balanced": {
+      "scenario": "hybrid_balanced",
+      "traffic_type": "balanced",
+      "improvements": {
+        "latency": 0.49125099107527775,
+        "packet_loss": -1.5496596091113215,
+        "throughput": -0.6007543836526614,
+        "jitter": -5.2848561831045355
+      },
+      "hybrid_score": 9.987412388749746,
+      "grade": "\ud83d\udcca ACCEPTABLE B (STANDARD)",
+      "grade_points": 70,
+      "hybrid_metrics": {
+        "hybrid_corrections": 0,
+        "phase_usage": {
+          "phase1": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "hybrid": 0
+        },
+        "correction_rate": 0.0,
+        "hybrid_report": {
+          "hybrid_performance": {
+            "correction_rate": 0.0,
+            "total_corrections": 0,
+            "average_stability_score": 0.7277288908788323,
+            "average_ml_confidence": 0.9
+          },
+          "action_distribution": {},
+          "context_distribution": {
+            "video_call": 100
+          },
+          "hybrid_intelligence_level": 0.5425762969596107
+        }
+      }
+    },
+    "hybrid_ultimate": {
+      "scenario": "hybrid_ultimate",
+      "traffic_type": "balanced",
+      "improvements": {
+        "latency": -0.8971655657355528,
+        "packet_loss": -8.63058349778512,
+        "throughput": -2.3005577691520824,
+        "jitter": -8.586795986644354
+      },
+      "hybrid_score": 6.787330155648269,
+      "grade": "\ud83d\udcca ACCEPTABLE B (STANDARD)",
+      "grade_points": 70,
+      "hybrid_metrics": {
+        "hybrid_corrections": 0,
+        "phase_usage": {
+          "phase1": 0,
+          "phase2": 0,
+          "phase3": 0,
+          "hybrid": 0
+        },
+        "correction_rate": 0.0,
+        "hybrid_report": {
+          "hybrid_performance": {
+            "correction_rate": 0.0,
+            "total_corrections": 0,
+            "average_stability_score": 0.6866662695895268,
+            "average_ml_confidence": 0.9
+          },
+          "action_distribution": {},
+          "context_distribution": {
+            "video_call": 100
+          },
+          "hybrid_intelligence_level": 0.5288887565298422
+        }
+      }
+    }
+  },
+  "final_assessment": "\ud83d\udcc8 HYBRID ENHANCED - B+ SOLID PERFORMANCE!",
+  "timestamp": 1769477765.0396373
+}

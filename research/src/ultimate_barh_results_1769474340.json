@@ -1,0 +1,353 @@
+{
+  "test_type": "Ultimate Closed-Loop BARH Protocol Test",
+  "overall_statistics": {
+    "scenarios_tested": 5,
+    "average_improvements": {
+      "latency": -3.671660894113548,
+      "packet_loss": -7.071406362332461,
+      "throughput": 2.020154431134451
+    },
+    "peak_improvements": {
+      "latency": 4.449816897714602,
+      "packet_loss": 12.413196183912751,
+      "throughput": 7.840917994438593
+    },
+    "overall_performance_score": -3.2483886924227128,
+    "average_grade_points": 47.0
+  },
+  "detailed_results": {
+    "stable_baseline": {
+      "scenario": "stable_baseline",
+      "description": "Optimal WiFi conditions",
+      "baseline_stats": {
+        "latency": {
+          "mean": 5.1876827582961775,
+          "std": 1.4317530175106425,
+          "p99": 12.522038614608197
+        },
+        "packet_loss": {
+          "mean": 0.145023618780072,
+          "std": 0.16453682321962504,
+          "p99": 0.8584493099854529
+        },
+        "throughput": {
+          "mean": 99.05342013782403,
+          "std": 8.515270121580146,
+          "p99": 105.54582049677288
+        },
+        "jitter": {
+          "mean": 0.35346820901032067,
+          "std": 0.25432262470302774,
+          "p99": 1.1886759078062565
+        }
+      },
+      "enhanced_stats": {
+        "latency": {
+          "mean": 5.581208454792543,
+          "std": 2.029211134673056,
+          "p99": 13.431075024188422
+        },
+        "packet_loss": {
+          "mean": 0.19777629433114996,
+          "std": 0.22143064895803377,
+          "p99": 0.93918313876786
+        },
+        "throughput": {
+          "mean": 98.4546911003298,
+          "std": 17.577702604603168,
+          "p99": 112.70122460672215
+        },
+        "jitter": {
+          "mean": 0.348498859964026,
+          "std": 0.29330476618515944,
+          "p99": 1.3620990046316963
+        }
+      },
+      "improvements": {
+        "latency_mean": -7.585770272228711,
+        "latency_p99": -7.259492144671582,
+        "packet_loss_mean": -36.375230458893235,
+        "throughput_mean": -0.6044506455821105,
+        "jitter_mean": 1.405882882709135
+      },
+      "performance_score": -13.785238504671856,
+      "grade": "\ud83d\udcc9 NEEDS IMPROVEMENT (D)",
+      "grade_points": 45,
+      "protocol_metrics": {
+        "corrections_applied": 6,
+        "correction_rate": 0.08,
+        "high_confidence_rate": 0.05333333333333334,
+        "avg_detection_confidence": 0.13796494705748263,
+        "adaptive_sensitivity": 1.8,
+        "network_stability_improvement": -6.1663644448976305
+      }
+    },
+    "sudden_congestion": {
+      "scenario": "sudden_congestion",
+      "description": "Network congestion stress test",
+      "baseline_stats": {
+        "latency": {
+          "mean": 39.18317339144179,
+          "std": 23.7349974731882,
+          "p99": 107.76827379656865
+        },
+        "packet_loss": {
+          "mean": 6.191860827125793,
+          "std": 5.2862319517583245,
+          "p99": 20.058274344932965
+        },
+        "throughput": {
+          "mean": 30.72823350904604,
+          "std": 17.209842663497486,
+          "p99": 75.7878203916598
+        },
+        "jitter": {
+          "mean": 5.203637727570211,
+          "std": 4.573800007020567,
+          "p99": 19.275449124090013
+        }
+      },
+      "enhanced_stats": {
+        "latency": {
+          "mean": 40.190678523134316,
+          "std": 20.18061193421914,
+          "p99": 101.48926511922775
+        },
+        "packet_loss": {
+          "mean": 6.009617036748807,
+          "std": 5.457703912589534,
+          "p99": 20.657107952797734
+        },
+        "throughput": {
+          "mean": 31.355275951246757,
+          "std": 20.483699388004133,
+          "p99": 89.98509753664618
+        },
+        "jitter": {
+          "mean": 4.858284695448924,
+          "std": 3.798185333787132,
+          "p99": 14.717475711531478
+        }
+      },
+      "improvements": {
+        "latency_mean": -2.571269870430097,
+        "latency_p99": 5.826398118980376,
+        "packet_loss_mean": 2.9432798227408115,
+        "throughput_mean": 2.0406068640949506,
+        "jitter_mean": 6.636761631032038
+      },
+      "performance_score": 1.5624477502459242,
+      "grade": "\ud83d\udcc9 NEEDS IMPROVEMENT (D)",
+      "grade_points": 45,
+      "protocol_metrics": {
+        "corrections_applied": 13,
+        "correction_rate": 0.11607142857142858,
+        "high_confidence_rate": 0.017857142857142856,
+        "avg_detection_confidence": 0.15611123172421307,
+        "adaptive_sensitivity": 1.8900000000000001,
+        "network_stability_improvement": 3.7904722863051585
+      }
+    },
+    "intermittent_loss": {
+      "scenario": "intermittent_loss",
+      "description": "Packet loss recovery test",
+      "baseline_stats": {
+        "latency": {
+          "mean": 22.605697639227156,
+          "std": 10.41618882197252,
+          "p99": 63.016194510992456
+        },
+        "packet_loss": {
+          "mean": 3.483522555437063,
+          "std": 2.772275689954698,
+          "p99": 13.781148770743659
+        },
+        "throughput": {
+          "mean": 55.7440137992237,
+          "std": 18.52170080692726,
+          "p99": 94.34858061417187
+        },
+        "jitter": {
+          "mean": 2.2338778774513264,
+          "std": 1.8116562532239595,
+          "p99": 8.094595798933646
+        }
+      },
+      "enhanced_stats": {
+        "latency": {
+          "mean": 26.392261216292827,
+          "std": 14.742148140089567,
+          "p99": 86.66206247850107
+        },
+        "packet_loss": {
+          "mean": 3.6303050649631783,
+          "std": 2.9081550755290784,
+          "p99": 13.939691723725497
+        },
+        "throughput": {
+          "mean": 55.363610581330306,
+          "std": 21.018080433276733,
+          "p99": 107.48949375447964
+        },
+        "jitter": {
+          "mean": 2.4988672652205692,
+          "std": 2.0420755400702304,
+          "p99": 11.861236540581821
+        }
+      },
+      "improvements": {
+        "latency_mean": -16.75048316356728,
+        "latency_p99": -37.52347813288513,
+        "packet_loss_mean": -4.213623055117532,
+        "throughput_mean": -0.6824108849849142,
+        "jitter_mean": -11.862304132380515
+      },
+      "performance_score": -8.2808171717022,
+      "grade": "\ud83d\udcc9 NEEDS IMPROVEMENT (D)",
+      "grade_points": 45,
+      "protocol_metrics": {
+        "corrections_applied": 10,
+        "correction_rate": 0.10638297872340426,
+        "high_confidence_rate": 0.0425531914893617,
+        "avg_detection_confidence": 0.1547642940456781,
+        "adaptive_sensitivity": 1.8900000000000001,
+        "network_stability_improvement": -6.688727158617204
+      }
+    },
+    "6g_simulation": {
+      "scenario": "6g_simulation",
+      "description": "Ultra-low latency validation",
+      "baseline_stats": {
+        "latency": {
+          "mean": 1.23620629136983,
+          "std": 0.28180452903544917,
+          "p99": 1.9217528670371746
+        },
+        "packet_loss": {
+          "mean": 0.05391134823362169,
+          "std": 0.06982132361355592,
+          "p99": 0.2529608602769938
+        },
+        "throughput": {
+          "mean": 278.45325696820487,
+          "std": 13.119248291810205,
+          "p99": 281.5790365848295
+        },
+        "jitter": {
+          "mean": 0.09459062573321872,
+          "std": 0.07611662494414319,
+          "p99": 0.43961953816505983
+        }
+      },
+      "enhanced_stats": {
+        "latency": {
+          "mean": 1.1855292267044326,
+          "std": 0.33847795636220784,
+          "p99": 1.9216280236082737
+        },
+        "packet_loss": {
+          "mean": 0.05936968587306598,
+          "std": 0.06736769700474565,
+          "p99": 0.22403168270832705
+        },
+        "throughput": {
+          "mean": 282.64706605243714,
+          "std": 2.140108163769645,
+          "p99": 285.6823927330945
+        },
+        "jitter": {
+          "mean": 0.10083034426111792,
+          "std": 0.07294617174017115,
+          "p99": 0.2978077900863129
+        }
+      },
+      "improvements": {
+        "latency_mean": 4.099401937943748,
+        "latency_p99": 0.006496331086183357,
+        "packet_loss_mean": -10.1246543043051,
+        "throughput_mean": 1.506108827705736,
+        "jitter_mean": -6.596550640755421
+      },
+      "performance_score": -2.334303854735745,
+      "grade": "\ud83d\udcc9 NEEDS IMPROVEMENT (D)",
+      "grade_points": 45,
+      "protocol_metrics": {
+        "corrections_applied": 6,
+        "correction_rate": 0.09523809523809523,
+        "high_confidence_rate": 0.0,
+        "avg_detection_confidence": 0.13530794803756033,
+        "adaptive_sensitivity": 1.8,
+        "network_stability_improvement": -1.6829484629294469
+      }
+    },
+    "extreme_conditions": {
+      "scenario": "extreme_conditions",
+      "description": "Maximum stress endurance test",
+      "baseline_stats": {
+        "latency": {
+          "mean": 157.50283428930243,
+          "std": 82.24400054932167,
+          "p99": 375.6157987631876
+        },
+        "packet_loss": {
+          "mean": 17.087166376413645,
+          "std": 16.72932341845102,
+          "p99": 65.077284755015
+        },
+        "throughput": {
+          "mean": 23.562543177888692,
+          "std": 28.42236052557437,
+          "p99": 128.98009640556893
+        },
+        "jitter": {
+          "mean": 18.252078658205455,
+          "std": 15.67298837354395,
+          "p99": 67.34692850058246
+        }
+      },
+      "enhanced_stats": {
+        "latency": {
+          "mean": 150.49424655471762,
+          "std": 68.05425194274359,
+          "p99": 325.748917863
+        },
+        "packet_loss": {
+          "mean": 14.966102891837844,
+          "std": 13.88770115191505,
+          "p99": 56.34302518002344
+        },
+        "throughput": {
+          "mean": 25.41006286587113,
+          "std": 30.00530828859646,
+          "p99": 131.2906967250119
+        },
+        "jitter": {
+          "mean": 19.883943670401738,
+          "std": 15.54730155087647,
+          "p99": 76.60782104601164
+        }
+      },
+      "improvements": {
+        "latency_mean": 4.449816897714602,
+        "latency_p99": 13.27603393264801,
+        "packet_loss_mean": 12.413196183912751,
+        "throughput_mean": 7.840917994438593,
+        "jitter_mean": -8.940707755840494
+      },
+      "performance_score": 6.595968318750313,
+      "grade": "\ud83d\udcc8 SATISFACTORY (C)",
+      "grade_points": 55,
+      "protocol_metrics": {
+        "corrections_applied": 25,
+        "correction_rate": 0.16025641025641027,
+        "high_confidence_rate": 0.038461538461538464,
+        "avg_detection_confidence": 0.18428525798187675,
+        "adaptive_sensitivity": 1.9845000000000002,
+        "network_stability_improvement": 8.629515709584386
+      }
+    }
+  },
+  "final_grade": "\ud83d\udcc8 SATISFACTORY PERFORMANCE (C)",
+  "publication_readiness": "\ud83d\udd27 NEEDS FURTHER OPTIMIZATION",
+  "test_timestamp": 1769474340.974453
+}

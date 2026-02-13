@@ -1,0 +1,12 @@
+{
+  "timestamp": 1769482015.4430947,
+  "tests_passed": 11,
+  "tests_failed": 1,
+  "warnings": [
+    "High decision variability"
+  ],
+  "errors": [
+    "Simulator failure handling"
+  ],
+  "critical_issues": []
+}

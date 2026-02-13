@@ -1,0 +1,165 @@
+{
+  "phase": "Phase 2 - ML Intelligence Integration",
+  "overall_statistics": {
+    "average_improvements": {
+      "latency": 49.79212461790799,
+      "packet_loss": 40.43367503493165,
+      "throughput": 63.71061608133831
+    },
+    "peak_improvements": {
+      "latency": 84.41728650796992,
+      "packet_loss": 71.37726371420243,
+      "throughput": 111.91191908355032
+    },
+    "average_intelligence_grade": 87.0
+  },
+  "detailed_results": {
+    "stable_baseline": {
+      "scenario": "stable_baseline",
+      "improvements": {
+        "latency": 0.17077159769574118,
+        "packet_loss": 8.838776890322691,
+        "throughput": 10.79141667596975
+      },
+      "performance_score": 25.728192608558338,
+      "grade": "\ud83e\udd49 GOOD (B+)",
+      "grade_points": 75,
+      "ml_metrics": {
+        "ml_corrections": 1,
+        "pattern_detections": 6,
+        "learning_progress": 0.30832836512789674,
+        "intelligence_report": {
+          "learning_metrics": {
+            "average_reward": 0.0,
+            "correction_rate": 0.0,
+            "average_lstm_confidence": 0.95,
+            "learning_progress": 0.4788553175932627,
+            "total_corrections": 1
+          },
+          "pattern_analysis": {
+            "unknown": 50
+          },
+          "intelligence_level": 0.5
+        }
+      }
+    },
+    "sudden_congestion": {
+      "scenario": "sudden_congestion",
+      "improvements": {
+        "latency": 84.41728650796992,
+        "packet_loss": 69.34140308051448,
+        "throughput": 111.91191908355032
+      },
+      "performance_score": 103.43565651034946,
+      "grade": "\ud83c\udfc6 EXCEPTIONAL (A+)",
+      "grade_points": 95,
+      "ml_metrics": {
+        "ml_corrections": 57,
+        "pattern_detections": 2,
+        "learning_progress": 0.6493865668834927,
+        "intelligence_report": {
+          "learning_metrics": {
+            "average_reward": 0.017467550515583644,
+            "correction_rate": 0.26,
+            "average_lstm_confidence": 0.95,
+            "learning_progress": 0.7766124542600458,
+            "total_corrections": 50
+          },
+          "pattern_analysis": {
+            "unknown": 50
+          },
+          "intelligence_level": 0.5
+        }
+      }
+    },
+    "intermittent_loss": {
+      "scenario": "intermittent_loss",
+      "improvements": {
+        "latency": 82.82908895047154,
+        "packet_loss": 44.890693770385035,
+        "throughput": 72.28627568029223
+      },
+      "performance_score": 90.16369195484735,
+      "grade": "\ud83c\udfc6 EXCEPTIONAL (A+)",
+      "grade_points": 95,
+      "ml_metrics": {
+        "ml_corrections": 69,
+        "pattern_detections": 3,
+        "learning_progress": 0.8377256433244549,
+        "intelligence_report": {
+          "learning_metrics": {
+            "average_reward": 0.03796328305786823,
+            "correction_rate": 0.48,
+            "average_lstm_confidence": 0.95,
+            "learning_progress": 0.8858826240817698,
+            "total_corrections": 50
+          },
+          "pattern_analysis": {
+            "unknown": 50
+          },
+          "intelligence_level": 0.5
+        }
+      }
+    },
+    "6g_simulation": {
+      "scenario": "6g_simulation",
+      "improvements": {
+        "latency": -2.700734401224147,
+        "packet_loss": 7.720237719233634,
+        "throughput": 23.04803016211855
+      },
+      "performance_score": 38.582677790580235,
+      "grade": "\ud83e\udd49 GOOD (B+)",
+      "grade_points": 75,
+      "ml_metrics": {
+        "ml_corrections": 2,
+        "pattern_detections": 4,
+        "learning_progress": 0.8983122798426602,
+        "intelligence_report": {
+          "learning_metrics": {
+            "average_reward": 0.0,
+            "correction_rate": 0.0,
+            "average_lstm_confidence": 0.95,
+            "learning_progress": 0.9003275905673341,
+            "total_corrections": 50
+          },
+          "pattern_analysis": {
+            "unknown": 50
+          },
+          "intelligence_level": 0.5
+        }
+      }
+    },
+    "extreme_conditions": {
+      "scenario": "extreme_conditions",
+      "improvements": {
+        "latency": 84.2442104346269,
+        "packet_loss": 71.37726371420243,
+        "throughput": 100.5154388047607
+      },
+      "performance_score": 106.82715552438908,
+      "grade": "\ud83c\udfc6 EXCEPTIONAL (A+)",
+      "grade_points": 95,
+      "ml_metrics": {
+        "ml_corrections": 175,
+        "pattern_detections": 6,
+        "learning_progress": 0.9003275905673341,
+        "intelligence_report": {
+          "learning_metrics": {
+            "average_reward": 0.0758334957616391,
+            "correction_rate": 0.82,
+            "average_lstm_confidence": 0.95,
+            "learning_progress": 0.9003275905673341,
+            "total_corrections": 50
+          },
+          "pattern_analysis": {
+            "unknown": 50
+          },
+          "intelligence_level": 0.5
+        }
+      }
+    }
+  },
+  "final_assessment": "\ud83e\udd47 PHASE 2 EXCELLENT - A GRADE INTELLIGENCE!",
+  "timestamp": 1769481656.8729842
+}
